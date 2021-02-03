@@ -42,6 +42,7 @@ export default class DataService {
 
 
     private sortByPossition(possition: WorkingPossition): Employee[] {
+        //THis changes is confiram in DEV
         const empls: Employee[] = [];
         for (const employee of employees) {
             if (employee.possition === possition) {
